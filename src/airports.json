@@ -1,0 +1,170 @@
+[
+    {
+        "id": "crk",
+        "name": "Clark International Airport",
+        "city": "Mabalacat, Pampanga",
+        "description": "known as Diosdado Macapagal International Airport from 2003 to 2014, is an international airport covering portions of the cities of Angeles and Mabalacat within the Clark Freeport and Special Economic Zone in the province of Pampanga, Philippines.",
+        "imageCredit": "Patrickroque01"
+    },
+    {
+        "id": "dvo",
+        "name": "Francisco Bangoy International Airport",
+        "city": "Davao City",
+        "description": "commonly known as Davao International Airport, is the main airport serving Davao City and Davao Region in the Philippines. Serving as the main gateway to Mindanao, it is the busiest airport on the island and the third busiest in the Philippines in 2022.",
+        "imageCredit": "Official Dirk"
+    },
+    {
+        "id": "ilo",
+        "name": "Iloilo International Airport",
+        "city": "Cabatuan, Iloilo",
+        "description": "known as Iloilo Airport, and as Cabatuan Airport, after the municipality of Cabatuan, Iloilo, where it is located, is an airport serving the province of Iloilo in the Philippines,[6] including its capital city, Iloilo City, the regional center of the Western Visayas region.",
+        "imageCredit": "LMP 2001"
+    },
+    {
+        "id": "klo",
+        "name": "Kalibo International Airport",
+        "city": "Kalibo, Aklan",
+        "description": "an international airport that serves the general area of Kalibo, the capital of the province of Aklan in the Philippines, and is one of two airports serving Boracay, the other being Godofredo P. Ramos Airport (also known as Caticlan Airport) in the municipality of Malay. ",
+        "imageCredit": "Paolobon140"
+    },
+    {
+        "id": "lao",
+        "name": "Laoag International Airport",
+        "city": "Laoag, Ilocos Norte",
+        "description": "an airport serving the general area of Laoag, the capital city of the province of Ilocos Norte in the Philippines. It is the only airport in Ilocos Norte and is the northernmost international airport in the Philippines. ",
+        "imageCredit": "Alaric A. Yanos"
+    },
+    {
+        "id": "ceb",
+        "name": "Mactan-Cebu Internation Airport",
+        "city": "Lapu-Lapu City",
+        "description": "an international airport serving Cebu and serves as the main gateway to the Central Visayas region in the Philippines. Located on a 797-hectare (1,970-acre) site in Lapu-Lapu City on Mactan, it is the second busiest airport in the Philippines.",
+        "imageCredit": "Patrickroque01"
+    },
+    {
+        "id": "mnl",
+        "name": "Ninoy Aquino International Airport",
+        "city": "Pasay City",
+        "description": "known as Manila International Airport (MIA), is the main international airport serving Metro Manila in the Philippines. Located between the cities of Pasay and Parañaque, about 7 kilometers (4.3 mi) south of Manila proper and southwest of Makati, it is the main gateway for travelers to the Philippines and serves as a hub for PAL Express and Philippine Airlines. ",
+        "imageCredit": "Mimathology"
+    },
+    {
+        "id": "pps",
+        "name": "Puerto Princesa International Airport",
+        "city": "Puerto Princesa, Palawan",
+        "description": "an airport serving the general area of Puerto Princesa, located in the province of Palawan in the Philippines. The airport is the main gateway to the Puerto Princesa Underground River, a UNESCO World Heritage Site and one of the New 7 Wonders of Nature.",
+        "imageCredit": "Official Dirk"
+    },
+    {
+        "id": "bcd",
+        "name": "Bacolod-Silay Airport",
+        "city": "Silay, Negros Occidental",
+        "description": "an airport serving the general area of Metro Bacolod, located in the Western Visayas region of the Philippines.",
+        "imageCredit": "Patrickroque01"
+    },
+    {
+        "id": "drp",
+        "name": "Bicol International Airport",
+        "city": "Daraga, Albay",
+        "description": " also referred by some sources as Southern Luzon International Airport, is an airport serving the vicinity of Legazpi, the capital city of Albay and the regional center of Bicol Region, in the Philippines.",
+        "imageCredit": "Albert Alcain"
+    },
+    {
+        "id": "tag",
+        "name": "Bohol-Panglao International Airport",
+        "city": "Panglao, Bohol",
+        "description": "also known as New Bohol International Airport, is an international airport on Panglao Island in the province of Bohol, Philippines. The airport opened on November 28, 2018 after decades of planning and three years of construction, replacing Tagbilaran Airport to support Bohol's increased passenger traffic due to tourism.",
+        "imageCredit": "Albert Alcain"
+    },
+    {
+        "id": "bxu",
+        "name": "Bancasi Airport",
+        "city": "Bancasi, Butuan",
+        "description": "also known as Butuan Airport, is an airport serving the general area of Butuan and Agusan del Norte. It is the only airport in Agusan del Norte and the largest in Caraga",
+        "imageCredit": "Paolobon140"
+    },
+    {
+        "id": "cyz",
+        "name": "Cauayan Airport",
+        "city": "Cauayan, Isabela",
+        "description": "an airport serving the general area of Cauayan, a city in Isabela province in the Philippines. It is one of three commercial airports in Isabela. The airport has been renovated and night-rated to allow night landings and takeoffs.",
+        "imageCredit": "Lawrence Ruiz"
+    },
+    {
+        "id": "cbo",
+        "name": "Cotobato Airport",
+        "city": "Datu Odin Sinsuat, Cotobato",
+        "description": "also known as Awang Airport, is an airport serving the general area of Cotabato City, North Cotabato, Maguindanao del Norte, and Maguindanao del Sur. Located in the province of Maguindanao del Norte in the Philippines.",
+        "imageCredit": "Marwan Khan"
+    },
+    {
+        "id": "tac",
+        "name": "Daniel Z. Romualdez Airport",
+        "city": "Tacloban, Leyte",
+        "description": "also known as Tacloban City Airport, is an airport serving the general area of Tacloban, a highly urbanized city in the Leyte island of the Philippines. It is the main gateway from Manila and Cebu to Eastern Visayas. ",
+        "imageCredit": "LMP2001"
+    },
+    {
+        "id": "dpl",
+        "name": "Dipolog Airport",
+        "city": "Dipolog, Zamboanga Del Norte",
+        "description": "is the main airport serving the general area of Dipolog, the capital city of Zamboanga del Norte, in the Philippines. The airport is one of the busiest in Mindanao, especially considering its classification. ",
+        "imageCredit": "Pinoy Photographer/fraginal"
+    },
+    {
+        "id": "dgt",
+        "name": "Sibulan Airport",
+        "city": "Sibulan, Negros Oriental",
+        "description": "also known as Dumaguete Airport or Dumaguete–Sibulan Airport, is an airport serving the general area of the city of Dumaguete, located in the province of Negros Oriental in the Philippines.",
+        "imageCredit": "Pinoy Photographer/fraginal"
+    },
+    {
+        "id": "ges",
+        "name": "General Santos International Airport",
+        "city": "General Santos, South Cotobato",
+        "description": "also known as Tambler Airport and General Santos City Airport, is an alternate international airport located in the city of General Santos, Philippines serving the greater area of Soccsksargen.",
+        "imageCredit": "Simeon Celi"
+    },
+    {
+        "id": "mph",
+        "name": "Godofredo P. Ramos International Airport",
+        "city": "General Santos, South Cotobato",
+        "description": "also known as Caticlan International Airport and recently, Boracay Airport by its developer Trans Aire, is an international airport serving the general area of the municipality of Malay, located in the province of Aklan in the Philippines",
+        "imageCredit": "Sentsim"
+    },
+    {
+        "id": "ozc",
+        "name": "Labo Airport",
+        "city": "Ozamis, Misamis Occidental",
+        "description": "also known as Ozamiz Airport, is an airport serving the general area of the city of Ozamiz in the Philippines. It is the only airport in the province of Misamis Occidental.",
+        "imageCredit": "Cflagura"
+    },
+    {
+        "id": "cgy",
+        "name": "Laguindingan Airport",
+        "city": "Laguindingan, Misamis Oriental",
+        "description": "also referred to as Laguindingan International Airport, is an international airport in Northern Mindanao that serves the cities of Cagayan de Oro, Iligan and Marawi, as well as the provinces of Misamis Oriental, Lanao del Norte and Bukidnon in the Philippines.",
+        "imageCredit": "Patrickroque01"
+    },
+    {
+        "id": "wnp",
+        "name": "Naga Airport",
+        "city": "Pili, Camarines Sur",
+        "description": "an airport serving the city and metropolitan area of Naga (including the provincial capital Pili), located in the province of Camarines Sur in the Philippines. Although the airport is named after Naga, it is actually located in the provincial capital, Pili.",
+        "imageCredit": "kurz andreas PH"
+    },
+    {
+        "id": "pag",
+        "name": "Pagadian Airport",
+        "city": "Pagadian, Zamboanga del Sur",
+        "description": "an airport serving the city of Pagadian, the rest of the province of Zamboanga del Sur, and the province of Zamboanga Sibugay in the Philippines. The airport is located approximately 5 kilometers from the city center and is situated in Barangays Muricay and Tiguma in Pagadian.",
+        "imageCredit": "Razzmatazz143"
+    },
+    {
+        "id": "rxs",
+        "name": "Roxas Airport",
+        "city": "Roxas, Capiz",
+        "description": "a domestic airport serving the general area of Roxas City and the province of Capiz, in the Philippines.",
+        "imageCredit": "Patrickroque01"
+    }
+]
