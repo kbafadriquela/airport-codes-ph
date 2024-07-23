@@ -9,24 +9,29 @@
   <meta property="og:site_name" content="Airport Codes PH" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="Making sense of those three-letter airport codes." />
-  <meta property="og:image" content="%PUBLIC_URL%/assets/images/facebook-airport-codes-ph.png" />
+  <meta property="og:image" content="%PUBLIC_URL%/facebook-airport-codes-ph.png" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <title>Airport Code PH</title>
+  <title>Airport Codes PH</title>
   <div id="fb-root"></div>
-  <script>(function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+  <script data-goatcounter="https://airport-codes-ph.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <body>
   <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
   <div id="root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '442557305438245',
+        xfbml            : true,
+        version          : 'v20.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+      
 
 </body>
 

@@ -29,7 +29,6 @@ export function Modal() {
         
         <div ref={modalRef} className="modal-wrapper">
             <div className="modal">
-                <h1>{id}</h1>
                 <div className={`detail ${id} overlay`} style={setImageUrlLarge(id)}>
                     <a className='overlay' rel='noopener'></a>
                     <AirportDetails id={id} airportData={airportData} />
@@ -45,13 +44,10 @@ export function Modal() {
 
         const airport = airportData.filter((airport) => airport.id.toLowerCase().includes(id.toLowerCase()))[0];
 
-        console.log(airport);
+        const [description, setDescription] = useState(airport.description);
 
-        
-        const getName = data.map(name => data.find(a => a.id === id).name).slice(0, 1);
-        const getCity = data.map(city => data.find(b => b.id === id).city).slice(0, 1);
-        const getDescription = data.map(description => data.find(c => c.id === id).description).slice(0, 1);
-        const getImageCredit = data.map(imageCredit => data.find(d => d.id === id).imageCredit).slice(0, 1);
+        const pattern = /\*([A-Za-z])\*/gi;
+        const em = description.replace(pattern, '<em>$1</em>');  
     
         const currUrl = window.location.href;
 
@@ -66,8 +62,13 @@ export function Modal() {
 
                 return link;
             }
-            const link = `https://www.facebook.com/dialog/share?display=popup&href=${currUrl}${id}&redirect_uri=${currUrl}${id}`;
-            return link;
+            // const link = `https://www.facebook.com/dialog/share?display=popup&href=${currUrl}${id}&redirect_uri=${currUrl}${id}`;
+            // return link;
+            return window.FB.ui({
+                display: 'popup',
+                method: 'share',
+                href: `${currUrl}`,
+              }, function(response){});
 
         }
 
@@ -87,16 +88,17 @@ export function Modal() {
                     <div className='detail-info'>
                         <h1>{airport.id}</h1>
                         <h2>{airport.name}</h2>
-                        <h3>{airport.city}</h3>
+                        <h3><span className="local_name">{airport.local_name}</span></h3>
+                        <h4>{airport.city}</h4>
                         <div className="description fl-edu">
-                            <p>{airport.description}</p>
+                            <p dangerouslySetInnerHTML={{ __html: em}}></p>
                         </div>
                         <a className="close-detail" role="button" onClick={() => navigate('/')}></a>
                          <div className="social">
                             <a role="button" className="twitter" href={setTo("twitter")} onClick={share("twitter")} target="_blank"></a>
                         </div>
                         <div className="social">
-                            <a className="facebook" href={setTo("facebook")} onClick={share("facebook")} target="_blank"></a>
+                            <a className="facebook" href={setTo("facebook")} onClick={share("facebook")}></a>
                         </div>
                     </div>
                     <div className="photo-credit">

@@ -24,7 +24,7 @@ export function Home() {
     useEffect(() => {
         WebFont.load({
             google: {
-                families: ['Poppins', 'Quicksand']
+                families: ['Poppins', 'Catamaran']
             }
         });
     }, []);
@@ -36,7 +36,7 @@ export function Home() {
             <ul className="cf airport-list">
             <Airports toggleOverlay={toggleOverlay} airports={filteredAirports} />
             </ul>
-            <AirportDetails isOpen={isOpen} toggleOverlay={toggleOverlay} airport={airport} />
+            {/* <AirportDetails isOpen={isOpen} toggleOverlay={toggleOverlay} airport={airport} /> */}
         </>
     );
 }
@@ -62,31 +62,6 @@ export function setImageUrlLarge(url) {
 
 function capitalize(str) {
     return str.toUpperCase();
-}
-
-export function AirportDetails({ isOpen, toggleOverlay, airport }) {
-    if (isOpen) {
-
-        const currUrl = window.location.href;
-        const pageUrl = currUrl + `#airports/${airport.id}`;
-
-        const share = (socialType) => e => {
-            if (socialType == "twitter") {
-                const text = `Making sense of those three-letter airport codes: ${capitalize(airport.id)}`;
-                const link = `https://twitter.com/intent/tweet?url=${currUrl}${airport.id}&text=${text}`;
-
-                return window.open(link);
-            }
-            const link = `https://www.facebook.com/dialog/share?display=popup&href=${currUrl}${airport.id}&redirect_uri=${currUrl}${airport.id}`;
-            return window.open(link);
-            console.log(link);
-
-        }
-
-        const url_t = "https://twitter.com/intent/tweet?url=$SHARE_URL&text=$TEXT";
-        const url_f = "https://www.facebook.com/sharer/sharer.php?u=$SHARE_URL";
-    }
-    return null;
 }
 
 function AirportCard({ toggleOverlay, airport }) {
