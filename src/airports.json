@@ -251,6 +251,14 @@
       "city": "Mambajao, Camiguin",
       "description": "Camiguin Airport is located in Mambajao, Camiguin, serving the island province of Camiguin. Its airport code is derived from the name *C*a*m*i*g*uin, with the letters 'C', 'G', and 'M' representing the key components of the province's name.",
       "imageCredit": "michael_jeddah"
+    },
+    {
+      "id": "crm",
+      "name": "Catarman National Airport",
+      "local_name": "Nasudnon nga Luparan san Catarman",
+      "city": "Catarman, Samar",
+      "description": "Catarman Airport is located in Catarman, Northern Samar, providing regional air connectivity. Its airport code is derived from the name *C*ata*r*ma*n*, reflecting its location and service area.",
+      "imageCredit": "Jojit Ballesteros"
     }
 
 

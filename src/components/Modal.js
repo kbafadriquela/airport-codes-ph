@@ -8,6 +8,7 @@ export function Modal() {
     const { id } = useParams();
     const navigate = useNavigate();
 
+
     useEffect(() => {
         const observerRefValue = modalRef.current;
         disableBodyScroll(observerRefValue);
@@ -26,7 +27,6 @@ export function Modal() {
     }
 
     return (
-        
         <div ref={modalRef} className="modal-wrapper">
             <div className="modal">
                 <div className={`detail ${id} overlay`} style={setImageUrlLarge(id)}>
@@ -62,13 +62,13 @@ export function Modal() {
 
                 return link;
             }
-            // const link = `https://www.facebook.com/dialog/share?display=popup&href=${currUrl}${id}&redirect_uri=${currUrl}${id}`;
-            // return link;
-            return window.FB.ui({
-                display: 'popup',
-                method: 'share',
-                href: `${currUrl}`,
-              }, function(response){});
+            const link = `https://www.facebook.com/dialog/share?display=popup&href=${currUrl}${id}&redirect_uri=${currUrl}${id}`;
+            return link;
+            // return window.FB.ui({
+            //     display: 'popup',
+            //     method: 'share',
+            //     href: `${currUrl}`,
+            //   }, function(response){});
 
         }
 
@@ -108,4 +108,5 @@ export function Modal() {
                 </div>
         )
     }
+
 }
