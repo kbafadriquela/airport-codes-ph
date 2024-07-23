@@ -8,7 +8,6 @@ export function Modal() {
     const { id } = useParams();
     const navigate = useNavigate();
 
-
     useEffect(() => {
         const observerRefValue = modalRef.current;
         disableBodyScroll(observerRefValue);
@@ -59,10 +58,11 @@ export function Modal() {
             if (socialType == "twitter") {
                 const text = `Making sense of those three-letter airport codes: ${capitalize(id)}`;
                 const link = `https://twitter.com/intent/tweet?url=${currUrl}&text=${text}`;
-
+                window.open(link);
                 return link;
             }
             const link = `https://www.facebook.com/dialog/share?display=popup&href=${currUrl}${id}&redirect_uri=${currUrl}${id}`;
+            window.open(link);
             return link;
             // return window.FB.ui({
             //     display: 'popup',
@@ -98,7 +98,7 @@ export function Modal() {
                             <a role="button" className="twitter" href={setTo("twitter")} onClick={share("twitter")} target="_blank"></a>
                         </div>
                         <div className="social">
-                            <a className="facebook" href={setTo("facebook")} onClick={share("facebook")}></a>
+                            <a className="facebook" href={setTo("facebook")} onClick={share("facebook")} target='_blank'></a>
                         </div>
                     </div>
                     <div className="photo-credit">
