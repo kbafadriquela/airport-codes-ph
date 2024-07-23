@@ -259,7 +259,29 @@
       "city": "Catarman, Samar",
       "description": "Catarman Airport is located in Catarman, Northern Samar, providing regional air connectivity. Its airport code is derived from the name *C*ata*r*ma*n*, reflecting its location and service area.",
       "imageCredit": "Jojit Ballesteros"
+    },
+    {
+      "id": "cyu",
+      "name": "Cuyo Airport",
+      "local_name": "Paliparan ng Cuyo",
+      "city": "Magsaysay, Palawan",
+      "description": "Cuyo Airport serves the municipalities of Magsaysay, Cuyo and Agutaya Archipelago in Palawan, with its code \"CYU\" derived from its primary location, *C**u**y*o.",
+      "imageCredit": "PIA-MIMAROPA"
+    },
+    {
+      "id": "euq",
+      "name": "Evelio B. Javier Airport",
+      "local_name": "Hurugpaan kang Evelio B. Javier",
+      "city": "San Jose de Buenavista, Antique",
+      "description": "Named after Evelio Javier, who served as Antique's governor from 1971 to 1980, the airport in San Jose Buenavista is the province's only airport. Its code \"EUQ\" is derived from Anti*q**u**e*, its primary location.",
+      "imageCredit": "Edgar Habagat"
+    },
+    {
+      "id": "usu",
+      "name": "Francisco B. Reyes Airport",
+      "local_name": "Paliparan ng Francisco B. Reyes",
+      "city": "Coron, Palawan",
+      "description": "Commonly known as Busuanga Airport, it serves the general area of Coron and is located on B*u**s**u*anga Island in the province of Palawan.",
+      "imageCredit": "Chuck Gerlovich"
     }
-
-
   ]
