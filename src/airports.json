@@ -283,5 +283,102 @@
       "city": "Coron, Palawan",
       "description": "Commonly known as Busuanga Airport, it serves the general area of Coron and is located on B*u**s**u*anga Island in the province of Palawan.",
       "imageCredit": "Chuck Gerlovich"
+    },
+    {
+      "id": "jol",
+      "name": "Jolo Airport",
+      "local_name": "Landing sin Tiyanggi",
+      "city": "Jolo, Sulu",
+      "description": "Constructed in the 1940s during World War II as a staging point for American fighter aircraft, Jolo Airport was later turned over to the Sulu government. It now serves the general area of *J**o**l*o and is the only airport in the province of Sulu.",
+      "imageCredit": "Chuck Gerlovich"
+    },
+    {
+      "id": "bag",
+      "name": "Loakan Aiport",
+      "local_name": "Pagtayaban ti Loakan",
+      "city": "Baguio, Benguet",
+      "description": "Built in 1934, Loakan Airport faced post-war closure and several revival attempts over the years. In 2022, it finally reopened to the public, launching its first regular commercial flight and serving the general area of *B**a**g*uio.",
+      "imageCredit": "Richard A Francisco"
+    },
+    {
+      "id": "mrq",
+      "name": "Marinduque Aiport",
+      "local_name": "Paliparan ng Marinduque",
+      "city": "Gasan, Marinduque",
+      "description": "Marinduque Airport, located in Gasan, Marinduque, serves the island province of Marinduque. Its code is derived from the name *M*a*r*indu*q*ue, reflecting its primary location and service area.",
+      "imageCredit": "Sky Harbor"
+    },
+    {
+      "id": "mbt",
+      "name": "Moises R. Espinosa Airport",
+      "local_name": "Palupadan san Moises R. Espinosa",
+      "city": "Masbate City, Masbate",
+      "description": "Named after a former Masbate representative who was assassinated in 1989, Moises R. Espinosa Airport, also known as Masbate Airport, serves the locality and general area of Masbate City, *M*as*b*a*t*e.",
+      "imageCredit": "PINOY PHOTOGRAPHER"
+    },
+    {
+      "id": "omc",
+      "name": "Ormoc Airport",
+      "local_name": "Luparan han Ormoc",
+      "city": "Ormoc, Leyte",
+      "description": "Its airport code, \"OMC,\" was assigned by the U.S. Department of Transportation during the colonial period and is accompanied by unique identifiers to ensure accurate identification. Situated in *O*r*m*o*c* City, Leyte, it serves the local area with domestic flights.",
+      "imageCredit": "YANCY LIM/PRESIDENTIAL PHOTO"
+    },
+    {
+      "id": "sgl",
+      "name": "Sangley Point Airport",
+      "local_name": "Paliparan ng Punta Sangley",
+      "city": "Cavite City, Cavite",
+      "description": "Sangley Point Airport, located in Cavite, serves as a domestic airport for the surrounding region. Its code is derived from *S*an*g**l*ey, reflecting its primary location and service area.",
+      "imageCredit": "PINOY PHOTOGRAPHER"
+    },
+    {
+      "id": "swl",
+      "name": "San Vicente Airport",
+      "local_name": "Paliparan ng San Vicente",
+      "city": "San Vicente, Palawan",
+      "description": "San Vicente Airport, situated in San Vicente, Palawan, facilitates air travel to the northern part of Palawan. Its code derived from *S*an Vicente, Pa*l*a*w*an, reflecting its location and service area.",
+      "imageCredit": "Philippine Information Agency"
+    },
+    {
+      "id": "iao",
+      "name": "Sayak Airport",
+      "local_name": "Tugpahanan nan Sayak",
+      "city": "Siargao, Surigao Del Norte",
+      "description": "Built in 1963, Sayak Airport commonly known as Siargao Airport, is the main airport serving S*i*arg*a**o* Island in Surigao Del Norte. Situated in Barangay Sayak, Municipality of Del Carmen in Surigao del Norte.",
+      "imageCredit": "태양과달"
+    },
+    {
+      "id": "sug",
+      "name": "Surigao Airport",
+      "local_name": "Tugpahanan nan Surigao",
+      "city": "Surigao City, Surigao del Norte",
+      "description": "Surigao Airport in *S**u*ri*g*ao City, Surigao del Norte, is a key gateway for regional travel, providing essential connectivity for passengers and cargo in northeastern Mindanao.",
+      "imageCredit": "Paolobon140"
+    },
+    {
+      "id": "tdg",
+      "name": "Tandag Airport",
+      "local_name": "Tugpahanan hong Tandag",
+      "city": "Tandag, Surigao del Sur",
+      "description": "One of the two airports in Surigao del Sur, Tandag Airport is an airport serving the general area of *T*an*d*a*g*, the capital city of Surigao del Sur. Its code derived from its location and service area.",
+      "imageCredit": "Paolobon140"
+    },
+    {
+      "id": "tbh",
+      "name": "Tugdan Airport",
+      "local_name": "Paluparan it Tugdan",
+      "city": "Alcantara, Romblon",
+      "description": "Tugdan Airport, situated in Barangay Tugdan, Alcantara, on Tablas Island, functions as a domestic airport for Romblon. Its code, \"TBH,\" incorporates the name *T*a*b*las with the filler letter '*H*', aiding in regional travel and connectivity.",
+      "imageCredit": "Romblon Paradise"
+    },
+    {
+      "id": "vrc",
+      "name": "Virac Airport",
+      "local_name": "Palayogan nin Virac",
+      "city": "Virac, Catanduanes",
+      "description": "Virac Airport is the sole airport in Catanduanes, serving the entire island province. Its code is derived from its location in *V*i*r*a*c*, Catanduanes.",
+      "imageCredit": "Albert777MAX"
     }
+
   ]

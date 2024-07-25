@@ -49,7 +49,7 @@ export function About() {
 
                     <div className="footnote">
                         <p>All photographs are from Flickr &amp; Wikipedia, under Creative Commons licenses, or with permission from the photographer.</p>
-                        <p>Sources: <a href="http://www.wikipedia.org/">wikipedia.org</a>, <a href="https://pia4b.wordpress.com/2020/09/27/rehabilitasyon-ng-cuyo-airport-passenger-terminal-tapos-na/">pia4b.wordpress.com</a></p>
+                        <p>Sources: <a href="http://www.wikipedia.org/">wikipedia.org</a>, <a href="https://pia4b.wordpress.com/2020/09/27/rehabilitasyon-ng-cuyo-airport-passenger-terminal-tapos-na/">pia4b.wordpress.com</a>, <a href="https://pcoo.gov.ph/">pcoo.gov.ph</a></p>
                     </div>
                 </div>
                 <a className="back" role="button" onClick={() => navigate('/')}>Airport Codes PH</a>

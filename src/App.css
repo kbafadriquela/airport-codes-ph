@@ -381,6 +381,19 @@ p {
   z-index: 2;
 }
 
+.detail .detail-info a.random {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: url(./shuffle.svg) no-repeat center center;
+  background-size: 20px 20px;
+  text-indent: -9999em;
+  cursor: pointer;
+}
+
 .detail h1 {
   margin-bottom: 20px;
   font-size: 80px;
@@ -689,6 +702,160 @@ p {
     position: absolute;
     top: 15px;
     right: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .detail {
+      width:100%;
+      height: 100%
+  }
+
+  .detail .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px 15px 30px;
+      overflow-y: auto
+  }
+
+  .detail .detail-info {
+      min-height: 320px;
+      padding: 25px;
+      padding-top: 40px;
+      position: relative;
+      top: 0;
+      left: 0
+  }
+
+  .detail .photo-credit {
+      margin: 20px 0;
+      position: relative;
+      display: inline-block
+  }
+
+  .detail .back {
+      background: rgba(0,0,0,.6)
+  }
+}
+
+@media (min-width: 651px) {
+  .detail .detail-info {
+      min-width:450px;
+      max-width: 750px;
+      padding: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%)
+  }
+
+  .detail .photo-credit {
+      position: absolute;
+      top: 15px;
+      right: 15px
+  }
+}
+
+@media (max-width: 500px) {
+  header .clear {
+      display:none
+  }
+
+  header input {
+      width: 30px;
+      margin-left: 15px;
+      padding-right: 0;
+      position: absolute;
+      right: 15px;
+      -webkit-transition: width ease-out .2s;
+      -moz-transition: width ease-out .2s;
+      transition: width ease-out .2s
+  }
+
+  header input:hover {
+      cursor: pointer
+  }
+
+  header input:focus {
+      width: calc(100% - 30px);
+      padding-right: 30px
+  }
+
+  header input:focus:hover {
+      cursor: default
+  }
+
+  header input:focus+.clear {
+      display: block
+  }
+}
+
+@media (max-width: 400px) {
+  .card a {
+      padding:50px 20px;
+      font-size: 46px
+  }
+}
+
+@media (max-width: 400px) {
+  .card-contribute .card-contribute-content {
+      padding-bottom:50px;
+      font-size: 18px;
+      line-height: 22px
+  }
+
+  .card-contribute .card-contribute-content:after {
+      width: 40px;
+      height: 40px;
+      padding: 10px 0;
+      font-size: 40px
+  }
+}
+
+@media (min-width: 401px) {
+  .card-contribute .card-contribute-content {
+      padding-bottom:60px;
+      font-size: 22px;
+      line-height: 28px
+  }
+
+  .card-contribute .card-contribute-content:after {
+      width: 50px;
+      height: 50px;
+      padding: 13px 0;
+      font-size: 50px
+  }
+}
+
+@media (min-width: 600px) {
+  .card {
+      width:33.33%
+  }
+}
+
+@media (min-width: 800px) {
+  .card {
+      width:25%
+  }
+}
+
+@media (min-width: 1100px) {
+  .card {
+      width:20%
+  }
+}
+
+@media (min-width: 1500px) {
+  .card {
+      width:16.66%
+  }
+}
+
+@media (min-width: 2000px) {
+  .card {
+      width:14.28%
   }
 }
 
