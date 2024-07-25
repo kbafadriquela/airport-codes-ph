@@ -3,7 +3,6 @@ import React from 'react';
 import data from '../airports.json';
 import WebFont from 'webfontloader';
 import Layout from './Layout';
-import { Modal } from './Modal';
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export function Home() {

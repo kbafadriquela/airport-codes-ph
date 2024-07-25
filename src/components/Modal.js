@@ -1,4 +1,4 @@
-import { useEffect, useRef, Fragment, Link, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import { AirportDetails } from "./Home";

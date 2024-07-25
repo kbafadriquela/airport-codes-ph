@@ -2,7 +2,8 @@ const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpack = require("webpack");
 const TerserWebpackPlugin = require("terser-webpack-plugin");
-const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+// const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = function (_env, argv) {
     const isProduction = argv.mode === "production";
@@ -94,7 +95,8 @@ module.exports = function (_env, argv) {
                         warnings: false
                     }
                 }),
-                new OptimizeCssAssetsPlugin()
+                new CssMinimizerPlugin()
+                // new OptimizeCssAssetsPlugin()
             ],
             splitChunks: {
                 chunks: "all",
