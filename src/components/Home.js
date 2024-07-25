@@ -128,10 +128,10 @@ export function AirportDetails({ id, airportData }) {
     return (
         <div className='container'>
             <div className='detail-info'>
-                <h1>{airport.id}</h1>
-                <h2>{airport.name}</h2>
-                <h3><span className="local_name">{airport.local_name}</span></h3>
-                <h4>{airport.city}</h4>
+                <h1>{data.id}</h1>
+                <h2>{data.name}</h2>
+                <h3><span className="local_name">{data.local_name}</span></h3>
+                <h4>{data.city}</h4>
                 <div className="description fl-edu">
                     <p dangerouslySetInnerHTML={{ __html: em }}></p>
                 </div>
@@ -146,7 +146,7 @@ export function AirportDetails({ id, airportData }) {
                 </div>
             </div>
             <div className="photo-credit">
-                Photo by <a>{airport.imageCredit}</a>
+                Photo by <a>{data.imageCredit}</a>
             </div>
             <a className="back" role="button" onClick={() => navigate('/')}>Airport Codes PH</a>
         </div>
