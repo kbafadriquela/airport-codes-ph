@@ -98,7 +98,7 @@ export function AirportDetails({ id, airportData }) {
     const [description, setDescription] = useState(airport.description);
 
     const pattern = /\*([A-Za-z])\*/gi;
-    const em = description.replace(pattern, '<em>$1</em>');
+    const em = data.description.replace(pattern, '<em>$1</em>');
 
     const currUrl = window.location.href;
 

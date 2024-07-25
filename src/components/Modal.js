@@ -20,12 +20,6 @@ export function Modal() {
         };
     }, []);
 
-    function setImageUrlLarge(url) {
-        return {
-            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/large/${url}.jpg)`
-        }
-    }
-
     return (
         <div ref={modalRef} className="modal-wrapper">
             <div className="modal">
