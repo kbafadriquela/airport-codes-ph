@@ -84,12 +84,13 @@ export function AirportDetails({ id, airportData }) {
     // Initialize data to specific airport by id,
     // otherwise select a random airport.
     const [data, setData] = useState(() => {
-        const airport = airportData.filter(
-            (airport) => airport.id.toLowerCase().includes(id.toLowerCase())[0]
+        const airport = airportData.find(
+            (airport) => airport.id.toLowerCase().includes(id.toLowerCase())
         );
+
         return airport ? airport : randomAirport(airportData);
     });
-    
+
     const navigate = useNavigate();
 
     const airport = airportData.filter((airport) => airport.id.toLowerCase().includes(id.toLowerCase()))[0];
@@ -105,7 +106,7 @@ export function AirportDetails({ id, airportData }) {
         return str.toUpperCase();
     }
 
-    const share = (socialType) => e => {
+    const share = (socialType) => (e) => {
         if (socialType == "twitter") {
             const text = `Making sense of those three-letter airport codes: ${capitalize(id)}`;
             const link = `https://twitter.com/intent/tweet?url=${currUrl}&text=${text}`;
