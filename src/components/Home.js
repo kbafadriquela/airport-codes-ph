@@ -124,6 +124,8 @@ export function AirportDetails({ id, airportData }) {
         }
     }
 
+    
+
     return (
         <div className='container'>
             <div className='detail-info'>
