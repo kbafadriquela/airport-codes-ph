@@ -140,26 +140,29 @@
       "name": "General Santos International Airport",
       "local_name": "Pangkalibutan nga Hulugpaan sang Heneral Santos",
       "city": "General Santos, South Cotobato",
-      "description": "also known as Tambler Airport and General Santos City Airport, is an alternate international airport located in the city of General Santos, Philippines serving the greater area of Soccsksargen.",
+      "description": "In 1993, General Santos International Airport, then the largest in Mindanao, was known as Tambler Airport. Located in *G**e*neral *S*antos City, South Cotabato, it serves as a gateway to the SOCCSKSARGEN region.",
       "imageCredit": "Simeon Celi"
     },
     {
       "id": "mph",
       "name": "Godofredo P. Ramos International Airport",
+      "local_name": "Paeoparan it Godofredo P. Ramo",
       "city": "General Santos, South Cotobato",
-      "description": "also known as Caticlan International Airport and recently, Boracay Airport by its developer Trans Aire, is an international airport serving the general area of the municipality of Malay, located in the province of Aklan in the Philippines",
+      "description": "Officially known as Godofredo P. Ramos Airport and also referred to as Caticlan International Airport, it is located in Malay, Aklan, and serves as the primary gateway to Boracay Island. The airport code \"MPH\" is derived from its location, *M*alay, *P**h*ilippines.",
       "imageCredit": "Sentsim"
     },
     {
       "id": "ozc",
       "name": "Labo Airport",
+      "local_name": "Tugpahanan sa Labo",
       "city": "Ozamis, Misamis Occidental",
-      "description": "also known as Ozamiz Airport, is an airport serving the general area of the city of Ozamiz in the Philippines. It is the only airport in the province of Misamis Occidental.",
+      "description": "Originally known as Misamis Airfield before and after World War II, it was renamed Ozamiz Airport when the municipality became a city in 1948. Its code is derived from its location, *O**z*amiz, Misamis O*c*cidental",
       "imageCredit": "Cflagura"
     },
     {
       "id": "cgy",
       "name": "Laguindingan Airport",
+      "local_name": "Tugpahanan sa Laguindingan",
       "city": "Laguindingan, Misamis Oriental",
       "description": "Laguindingan Airport, located in Misamis Oriental, serves the Cagayan de Oro area and surrounding regions. Its airport code, CGY, reflects its association with *C*a*g*a*y*an de Oro City.",
       "imageCredit": "Patrickroque01"

@@ -647,6 +647,13 @@ p {
   /* cursor: pointer; */
 }
 
+.lost {
+  background-image: url(../public/assets/images/avengers.gif);
+}
+
+.detail .btn {
+  margin-top: 40px;
+}
 
 @media (min-width: 1500px) {
   .card {

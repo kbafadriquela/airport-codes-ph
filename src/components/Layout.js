@@ -19,7 +19,7 @@ export default function Layout({ onSearchTerm }) {
     <header>
     <nav className="cf">
       <h1>
-        <Link to="/" href='#' className='fl-lato link'>Airport Codes PH</Link>
+        <Link to="/" className='fl-lato link'>Airport Codes PH</Link>
         <Link to="/about" className='nav-about fl-lato link' href=''>About</Link>
       </h1>
       <input type='text' name='search' placeholder="Find your airport" value={searchTerm} onChange={handleInputChange} />
