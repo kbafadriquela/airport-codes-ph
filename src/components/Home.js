@@ -130,7 +130,7 @@ export function AirportDetails() {
     }
     
     return (
-        <div className={`detail ${id} overlay`} style={setImageUrlLarge(airport.id)}>
+        <div className={`detail ${id}`} style={setImageUrlLarge(airport.id)}>
             <a className='overlay' rel='noopener'></a>
             <div className='container'>
                 <div className='detail-info'>
