@@ -631,7 +631,7 @@ p {
 }
 
 /* modal-wrapper test */
-.modal-wrapper {
+/* .modal-wrapper {
   position: fixed;
   left: 0;
   top: 0;
@@ -642,10 +642,10 @@ p {
   justify-content: center;
   padding: 50px 20px;
   overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  z-index: 999;
+  -webkit-overflow-scrolling: touch; */
+  /* z-index: 999; */
   /* cursor: pointer; */
-}
+/* } */
 
 .lost {
   background-image: url(../public/assets/images/avengers.gif);

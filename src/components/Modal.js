@@ -17,7 +17,7 @@ export function Modal() {
   }, []);
 
   return (
-    <div ref={modalRef} className="modal-wrapper">
+    <div ref={modalRef}>
       <div className="modal">
           <AirportDetails/>
       </div>
