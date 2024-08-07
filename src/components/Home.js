@@ -1,9 +1,9 @@
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState } from "react";
 import React from "react";
 import data from "../airports.json";
 import WebFont from "webfontloader";
 import Layout from "./Layout";
-import { Link, useLocation, useNavigate, generatePath, useParams, Outlet } from "react-router-dom";
+import { Link, useLocation, useNavigate, generatePath, useParams } from "react-router-dom";
 import { NoMatch } from "./NoMatch";
 
 export function Home() {
@@ -56,10 +56,6 @@ export function Airports({ airports }) {
     return <ul>{airportCards}</ul>;
 }
 
-function capitalize(str) {
-    return str.toUpperCase();
-}
-
 function AirportCard({ airport }) {
     const location = useLocation();
 
@@ -90,7 +86,6 @@ function AirportCard({ airport }) {
 export function AirportDetails() {
     const { id } = useParams();
     const navigate = useNavigate();
-    const location = useLocation();
 
     const airport = React.useMemo(() => {
         return data.find(
@@ -110,7 +105,7 @@ export function AirportDetails() {
     }
 
     const share = (socialType) => (e) => {
-        if (socialType == "twitter") {
+        if (socialType === "twitter") {
             const text = `Making sense of those three-letter airport codes: ${capitalize(
                 id,
             )}`;
@@ -122,7 +117,7 @@ export function AirportDetails() {
     };
 
     function setTo(social) {
-        if (social == "twitter") {
+        if (social === "twitter") {
             return "https://twitter.com/intent/tweet?url=$SHARE_URL&text=$TEXT";
         } else {
             return "https://www.facebook.com/sharer/sharer.php?u=$SHARE_URL";
@@ -131,7 +126,7 @@ export function AirportDetails() {
     
     return (
         <div className={`detail ${id}`} style={setImageUrlLarge(airport.id)}>
-            <a className='overlay' rel='noopener'></a>
+            <a className='overlay' rel='noopener'><span></span></a>
             <div className='container'>
                 <div className='detail-info'>
                     <h1>{airport.id}</h1>

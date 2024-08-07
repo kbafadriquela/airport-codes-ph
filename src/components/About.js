@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function About() {
     const navigate = useNavigate();
-    const [airport, setAirport] = useState(data);
+    const [airport] = useState(data);
 
     function filterDuplicates(airport, filter) {
         const seen = new Set();
