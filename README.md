@@ -1,10 +1,7 @@
 # Airport Codes PH
 
-<<<<<<< HEAD
 [![Build Status](https://app.travis-ci.com/kbafadriquela/airport-codes-ph.svg?token=7rbUPqD8ski1wLh94Cxh&branch=main)](https://airport-codes-ph.vercel.app/)
 =======
-[![Build Status](https://app.travis-ci.com/kbafadriquela/airport-codes-ph.svg?token=7rbUPqD8ski1wLh94Cxh&branch=main)(https://airport-codes-ph.vercel.app/)
->>>>>>> 0f3f48032398c56ee88427e4faa69d8ac383ec54
 ### _Understanding those three letter airport codes_
 
 Every airport is identified by a unique three-letter IATA code. Some codes are straightforward if you know the city or airport name, while others can be quite puzzling.
