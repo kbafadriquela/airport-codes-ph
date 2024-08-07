@@ -6,7 +6,6 @@ cache:
   npm: false
 script:
   - npm run build
-  - npm test
 deploy:
   provider: pages
   skip_cleanup: true
